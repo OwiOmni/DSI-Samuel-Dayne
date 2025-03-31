@@ -52,22 +52,43 @@ public class Exercicio01 {
     double ADD = 0;
 
     if (FILHO14 >= 1){
-        double SB = SB ++65
+        SB = SB ++65
+    }
+    
+    if (SB > 1500) {
+        impostoR = SB + 0.15;
+    } 
+    
+    if else (SB < 1500 && SB > 500){
+        impostoR = SB + 0.08;
+    }
+    
+    if (IDADE >=40) {
+        ADD = SB + 0.02;
+   
+    } 
+    
+    if (TEMPOS > 15) {
+        ADD = SB + 0.15;
+    } 
+    
+    
+    double SL = (SB - SBd) + + ADD - impostoR;
+    if (FILHO14 >= 1) {
+        SL = (SB - SBd ) + ADD + SF - impostoR;
     }
 
-    if (SB > 1500) {
-        SB = SB + 0.15
-    } if else (SB < 1500 or SB > 500){
-        SB = SB + 0.08
-    }
-    if (IDADE >=40) {
-        SB = SB + 0.02
-   
-   
-    } if (TEMPOS > 15) {
-        SB = SB + 0.15
-    } if else (TEMPOS <= 15 && TEMPOS > 5 && IDADE > 30) {
-        SB = SB + 0.015
-    }
+    System.out.println("Nome: " + Nome);
+    System.out.println("Salário bruto: " + SB);
+    System.out.println("Imposto de renda: " + impostoR);
+    System.out.println("ADIC: " + ADD);
+    System.out.println("Salário familia: " + SF);
+    System.out.println("Salário liquido: " + SL);
+
+
+
+    }   
+    
+  
     }
     

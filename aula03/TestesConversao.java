@@ -1,4 +1,4 @@
-public class TestesConversÃ£o {
+public class TestesConversão {
   public static void main(String[] args) {
 
     int NumeroMaximo = 2000;

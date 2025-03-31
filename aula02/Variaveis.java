@@ -7,6 +7,7 @@ public class Variaveis {
       int n4 = 5;
       int n5 = 6;
       int n6 = 7;
+      int n7 = 9;
       System.out.println(n5 + n4);
       System.out.println(n6 - n2);
       System.out.println(n6 / n1);
